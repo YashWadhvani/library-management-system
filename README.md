@@ -1,2 +1,2 @@
 # library-management-system
-A Simple Library Management System which can be used as a CBSE Class 12 Computer Science Project.
+An Intermediate Level Python - MySQL Connectivity based project. Contains various functions of a Library-Management-System which can be used as a CBSE Class 12 Computer Science Project.
