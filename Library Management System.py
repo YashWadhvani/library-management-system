@@ -64,15 +64,15 @@ def modBook():
     if ch == 1:
         name = input('Enter New Book Name :-')
         mycursor.execute(
-            f'UPDATE BOOKLIST SET BOOKNAME = {name} where SRNO = {srno}')
+            f'UPDATE BOOKLIST SET BOOKNAME = "{name}" where SRNO = {srno}')
     elif ch == 2:
         name = input('Enter New Author Name :-')
         mycursor.execute(
-            f'UPDATE BOOKLIST SET AUTHOR = {name} where SRNO = {srno}')
+            f'UPDATE BOOKLIST SET AUTHOR = "{name}" where SRNO = {srno}')
     elif ch == 3:
         isbn = input('Enter New ISBN :-')
         mycursor.execute(
-            f'UPDATE BOOKLIST SET ISBN = {isbn} where SRNO = {srno}')
+            f'UPDATE BOOKLIST SET ISBN = "{isbn}" where SRNO = {srno}')
     elif ch == 4:
         copies = int(input('Enter New Number of Copies :-'))
         mycursor.execute(
